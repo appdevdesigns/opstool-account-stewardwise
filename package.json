@@ -1,0 +1,35 @@
+{
+    "name": "opstool-account-stewardwise",
+    "version": "0.0.0",
+    "description": "()\u001b[Dplugin) A plugin to connect our donations to our Stewardwise system.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dlegacy Stewardwise system.",
+    "main": "module.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "make test",
+        "postinstall": "node setup/setup.js",
+        "postupdate": "node setup/setup.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/appdevdesigns/opstool-account-stewardwise.git"
+    },
+    "author": "Joshua Brent",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/appdevdesigns/opstool-account-stewardwise/issues"
+    },
+    "homepage": "https://github.com/appdevdesigns/opstool-account-stewardwise#readme",
+    "dependencies": {
+        "ad-utils": "appdevdesigns/ad-utils"
+    },
+    "devDependencies": {
+        "barrels": "^1.5.0",
+        "chai": "^3.3.0",
+        "mocha": "^2.3.3",
+        "mocha-phantomjs": "^4.0.1",
+        "phantomjs": "^1.9.7-15",
+        "supertest": "^1.1.0"
+    }
+}
