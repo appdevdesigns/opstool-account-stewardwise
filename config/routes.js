@@ -23,6 +23,8 @@ module.exports = {
   'get /*(^.*)' : 'opstool-account-stewardwise/PluginController.profile'
 
   */
+    
+    'get /opstool-account-stewardwise/account' : 'opstool-account-stewardwise/AccountController.transactions'
 
 
 };

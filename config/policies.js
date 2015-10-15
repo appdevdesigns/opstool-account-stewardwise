@@ -15,12 +15,9 @@
 
 module.exports = {
 
-//    'opstool-account-stewardwise/YourController': {
-//        method: ['isAuthenticatedService'],
-//        auth: [],
-//        sync: serviceStack,
-//        logout:true
-//    }
+    'opstool-account-stewardwise/AccountController': {
+        transactions: ['fixThis']
+    }
 
 
 };
