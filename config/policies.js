@@ -16,7 +16,8 @@
 module.exports = {
 
     'opstool-account-stewardwise/AccountController': {
-        transactions: ['fixThis']
+        transaction: ['fixThis'],
+        period: ['fixThis']
     }
 
 

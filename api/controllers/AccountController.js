@@ -8,7 +8,8 @@
 var fs = require('fs');
 var path = require('path');
 
-var fixtureData = null;
+var transactionFixtureData = null;
+var periodFixtureData = null;
 
 module.exports = {
 	
@@ -19,22 +20,41 @@ module.exports = {
         rest: true
     },
     
-    transactions:function(req, res){
-        if (fixtureData == null){
+    transaction:function(req, res){
+        if (transactionFixtureData == null){
             
-            var pathToFile = path.join(__dirname, "..", "..", "test", "fixtures", "Transactions.json");
+            var pathToFile = path.join(__dirname, "..", "..", "test", "fixtures", "Transaction.json");
             fs.readFile(pathToFile, {encoding:'utf8'}, function(err, data){ 
                 
                 if (err) {
                     res.serverError(err);
                 } else {
-                    fixtureData = JSON.parse(data);
-                    res.send(fixtureData);
+                    transactionFixtureData = JSON.parse(data);
+                    res.send(transactionFixtureData);
                 }
             })
             
         } else {
-            res.send(fixtureData);
+            res.send(transactionFixtureData);
+        }
+    },
+    
+    period:function(req, res){
+        if (periodFixtureData == null){
+            
+            var pathToFile = path.join(__dirname, "..", "..", "test", "fixtures", "Period.json");
+            fs.readFile(pathToFile, {encoding:'utf8'}, function(err, data){ 
+                
+                if (err) {
+                    res.serverError(err);
+                } else {
+                    periodFixtureData = JSON.parse(data);
+                    res.send(periodFixtureData);
+                }
+            })
+            
+        } else {
+            res.send(periodFixtureData);
         }
     }
 };
