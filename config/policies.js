@@ -11,13 +11,13 @@
  * http://sailsjs.org/#documentation
  */
 
-// var serviceStack = ADCore.policy.serviceStack([ 'policy1', 'policy2']);
+var serviceStack = ADCore.policy.serviceStack();
 
 module.exports = {
 
     'opstool-account-stewardwise/AccountController': {
-        transaction: ['fixThis'],
-        period: ['fixThis']
+        transaction: serviceStack.concat(['fixThis']),
+        period: serviceStack.concat(['fixThis'])
     }
 
 

@@ -24,8 +24,13 @@ module.exports = {
 
   */
     
-    'get /opstool-account-stewardwise/account/transaction' : 'opstool-account-stewardwise/AccountController.transaction',
-    'get /opstool-account-stewardwise/account/period' : 'opstool-account-stewardwise/AccountController.period'
+    'get /opstool-account-stewardwise/account/transaction' : 
+        'opstool-account-stewardwise/AccountController.transaction',
+    'get /opstool-account-stewardwise/account/transaction/:period' : 
+        'opstool-account-stewardwise/AccountController.transaction',
+    
+    'get /opstool-account-stewardwise/account/period' : 
+        'opstool-account-stewardwise/AccountController.period'
 
 
 };
