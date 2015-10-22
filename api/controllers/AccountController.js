@@ -8,8 +8,6 @@
 var fs = require('fs');
 var path = require('path');
 
-var testStaffAccount = '100012';
-
 module.exports = {
 	
     _config: {
@@ -32,7 +30,8 @@ module.exports = {
         */
         };
         var periods = [];
-        var account = testStaffAccount;
+        var account = req.stewardwise.nssren.account_number.replace(/\D/g, '');
+        var nssrenID = req.stewardwise.nssren.nssren_id;
         
         var requestedPeriod = req.param('period');
         if (requestedPeriod && !requestedPeriod.match(/^\d\d\d\d\d\d$/)) {
@@ -80,23 +79,44 @@ module.exports = {
                 .fail(function(err) { next(err); })
                 .then(function(transactions, byPeriod) {
                     var data = transactions[account];
-                    for (var i=0; i<data.length; i++) {
-                        results.push({
-                            id: data[i].id,
-                            period: data[i].period,
-                            date: data[i].date,
-                            description: data[i].desc,
-                            credit: data[i].income,
-                            debit: data[i].expenses,
-                            type: glCodes[data[i].code] || data[i].code
-                        });
+                    if (data && data.length) {
+                        for (var i=0; i<data.length; i++) {
+                            results.push({
+                                id: data[i].id,
+                                period: data[i].period,
+                                date: data[i].date,
+                                description: data[i].desc,
+                                credit: data[i].income,
+                                debit: data[i].expenses,
+                                type: glCodes[data[i].code] || data[i].code
+                            });
+                        }
                     }
                     next();
                 });
             }],
             
             // Step 3
-            'sort': ['getTransactions', function(next) {
+            'currentPeriod': [function(next) {
+                LNSSRen.currentTransactions({ nssrenID: nssrenID })
+                .fail(function(err) { next(err); })
+                .done(function(data) {
+                    if (data) {
+                        for (var type in data) {
+                            for (var i=0; i<data[type].length; i++) {
+                                data[type][i].period = '9999-current';
+                                results.push( data[type][i] );
+                            }
+                        }
+                        next();
+                    } else {
+                        next(new Error('Staff data not found'));
+                    }
+                });
+            }],
+
+            // Step 4
+            'sort': ['getTransactions', 'currentPeriod', function(next) {
                 results.sort(function(a, b) {
                     // Descending order by period, then date
                     if (a.period == b.period) {
@@ -119,6 +139,7 @@ module.exports = {
     },
     
     
+    
     /**
      * GET /opstool-account-stewardwise/account/period
      */
@@ -133,7 +154,7 @@ module.exports = {
         ];
         
         var periods = [];
-        var account = testStaffAccount;
+        var account = req.stewardwise.nssren.account_number.replace(/\D/g, '');
         var resultsByPeriod = {
         /*
             <period1>: { ... },
@@ -142,10 +163,16 @@ module.exports = {
         */
         };
         
+        var nssren = req.stewardwise.nssren;
+        var currentPeriod = nssren.nssren_balancePeriod.replace('-', '');
+        var currentBalance = nssren.nssren_ytdBalance;
+        var currentTransactions = [];
+        
         async.auto({
             
             // Step 1
-            'getPeriods': function(next) {
+            'periods': 
+            function(next) {
                 LNSSCoreAccountHistory.recent12Periods()
                 .fail(function(err) { next(err); })
                 .then(function(data) {
@@ -157,7 +184,8 @@ module.exports = {
             },
             
             // Step 2A
-            'getBalances': ['getPeriods', function(next) {
+            'balances': ['periods', 
+            function(next) {
                 LNSSCoreAccountHistory.balanceForPeriods(periods, account)
                 .fail(function(err) { next(err); })
                 .then(function(data) {
@@ -172,7 +200,8 @@ module.exports = {
             }],
             
             // Step 2B
-            'getHistory': ['getPeriods', function(next) {
+            'history': ['periods', 
+            function(next) {
                 LNSSCoreGLTrans.byAccount(periods, account)
                 .fail(function(err) {next(err); })
                 .then(function(transactions, byPeriod) {
@@ -188,9 +217,40 @@ module.exports = {
             }],
             
             // Step 3
-            'compileResults': ['getHistory', 'getBalances', function(next) {
+            'currentPeriod': [
+            function(next) {
+                LNSSRen.currentTransactions({ nssrenID: nssren.nssren_id })
+                .fail(function(err) { next(err); })
+                .done(function(data) {
+                    if (data) {
+                        var creditTotal = 0;
+                        var debitTotal = 0;
+                        for (var type in data) {
+                            for (var i=0; i<data[type].length; i++) {
+                                creditTotal += data[type][i].credit;
+                                debitTotal += data[type][i].debit;
+                            }
+                        }
+                        results[0] = {
+                            id: '9999-current',
+                            date: new Date(),
+                            beginningBalance: nssren.nssren_ytdBalance,
+                            income: creditTotal,
+                            expenses: debitTotal,
+                            close: false
+                        };
+                        next();
+                    } else {
+                        next(new Error('Staff data not found'));
+                    }
+                });
+            }],
+            
+            // Step 4
+            'compileResults': ['history', 'balances', 'currentPeriod',
+            function(next) {
                 // Reassemble the indexed resultsByPeriod object into an array
-                var i = 0;
+                var i = 1;
                 for (var period in resultsByPeriod) {
                     results[i] = resultsByPeriod[period];
                     results[i].closed = true;
@@ -200,8 +260,9 @@ module.exports = {
                 next();
             }],
             
-            // Step 4
-            'sort': ['compileResults', function(next) {
+            // Step 5
+            'sort': ['compileResults', 
+            function(next) {
                 results.sort(function(a, b) {
                     // Descending order by `id`, which is the fiscal period
                     return b.id - a.id;
