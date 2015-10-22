@@ -16,8 +16,8 @@ var serviceStack = ADCore.policy.serviceStack();
 module.exports = {
 
     'opstool-account-stewardwise/AccountController': {
-        transaction: serviceStack.concat(['fixThis']),
-        period: serviceStack.concat(['fixThis'])
+        transaction: serviceStack.concat(['staffInfo', 'fixThis']),
+        period: serviceStack.concat(['staffInfo', 'fixThis'])
     }
 
 
