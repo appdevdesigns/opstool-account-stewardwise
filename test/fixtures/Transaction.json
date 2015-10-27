@@ -1,727 +1,704 @@
 [
-    { 
-        "id":"some-uuid-here",
-        "period":1,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":1,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":1,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":1,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":1,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":1,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-    { 
-        "id":"some-uuid-here",
-        "period":2,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":2,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":2,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":2,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":2,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":2,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":3,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":3,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":3,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":3,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":3,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":3,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":4,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":4,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":4,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":4,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":4,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":4,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":5,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":5,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":5,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":5,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":5,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":5,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":6,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":6,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":6,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":6,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":6,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":6,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":7,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":7,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":7,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":7,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":7,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":7,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":8,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":8,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":8,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":8,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":8,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":8,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":9,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":9,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":9,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":9,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":9,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":9,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":10,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":10,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":10,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":10,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":10,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":10,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":11,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":11,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":11,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":11,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":11,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":11,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":12,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":12,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":12,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":12,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":12,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":12,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    },
-    
-        
-    { 
-        "id":"some-uuid-here",
-        "period":13,
-        "date":"2015-12-03",
-        "description":"Foreign Contributions",
-        "credit":8000,
-        "debit":0,
-        "type":"Foreign Contributions"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":13,
-        "date":"2015-12-03",
-        "description":"Local Contributions",
-        "credit":12000,
-        "debit":0,
-        "type":"Local Contributions"
-    },            
-    { 
-        "id":"some-uuid-here",
-        "period":13,
-        "date":"2015-12-03",
-        "description":"Transfers In",
-        "credit":8000,
-        "debit":0,
-        "type":"Transfers In"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":13,
-        "date":"2015-12-03",
-        "description":"Gross Salary",
-        "credit":0,
-        "debit":8000,
-        "type":"Gross Salary"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":13,
-        "date":"2015-12-03",
-        "description":"Salary Advance",
-        "credit":0,
-        "debit":8000,
-        "type":"Salary Advance"
-    },
-    { 
-        "id":"some-uuid-here",
-        "period":13,
-        "date":"2015-12-03",
-        "description":"Reimbursement A",
-        "credit":0,
-        "debit":8000,
-        "type":"Reimbursements"
-    }
+  {
+    "id": "some-uuid-here.1",
+    "period": "some-uuid-here.1",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.2",
+    "period": "some-uuid-here.1",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.3",
+    "period": "some-uuid-here.1",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.4",
+    "period": "some-uuid-here.1",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.5",
+    "period": "some-uuid-here.1",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.6",
+    "period": "some-uuid-here.1",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.7",
+    "period": "some-uuid-here.2",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.8",
+    "period": "some-uuid-here.2",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.9",
+    "period": "some-uuid-here.2",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.10",
+    "period": "some-uuid-here.2",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.11",
+    "period": "some-uuid-here.2",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.12",
+    "period": "some-uuid-here.2",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.13",
+    "period": "some-uuid-here.3",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.14",
+    "period": "some-uuid-here.3",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.15",
+    "period": "some-uuid-here.3",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.16",
+    "period": "some-uuid-here.3",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.17",
+    "period": "some-uuid-here.3",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.18",
+    "period": "some-uuid-here.3",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.19",
+    "period": "some-uuid-here.4",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.20",
+    "period": "some-uuid-here.4",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.21",
+    "period": "some-uuid-here.4",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.22",
+    "period": "some-uuid-here.4",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.23",
+    "period": "some-uuid-here.4",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.24",
+    "period": "some-uuid-here.4",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.25",
+    "period": "some-uuid-here.5",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.26",
+    "period": "some-uuid-here.5",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.27",
+    "period": "some-uuid-here.5",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.28",
+    "period": "some-uuid-here.5",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.29",
+    "period": "some-uuid-here.5",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.30",
+    "period": "some-uuid-here.5",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.31",
+    "period": "some-uuid-here.6",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.32",
+    "period": "some-uuid-here.6",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.33",
+    "period": "some-uuid-here.6",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.34",
+    "period": "some-uuid-here.6",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.35",
+    "period": "some-uuid-here.6",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.36",
+    "period": "some-uuid-here.6",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.37",
+    "period": "some-uuid-here.7",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.38",
+    "period": "some-uuid-here.7",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.39",
+    "period": "some-uuid-here.7",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.40",
+    "period": "some-uuid-here.7",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.41",
+    "period": "some-uuid-here.7",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.42",
+    "period": "some-uuid-here.7",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.43",
+    "period": "some-uuid-here.8",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.44",
+    "period": "some-uuid-here.8",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.45",
+    "period": "some-uuid-here.8",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.46",
+    "period": "some-uuid-here.8",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.47",
+    "period": "some-uuid-here.8",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.48",
+    "period": "some-uuid-here.8",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.49",
+    "period": "some-uuid-here.9",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.50",
+    "period": "some-uuid-here.9",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.51",
+    "period": "some-uuid-here.9",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.52",
+    "period": "some-uuid-here.9",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.53",
+    "period": "some-uuid-here.9",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.54",
+    "period": "some-uuid-here.9",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.55",
+    "period": "some-uuid-here.10",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.56",
+    "period": "some-uuid-here.10",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.57",
+    "period": "some-uuid-here.10",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.58",
+    "period": "some-uuid-here.10",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.59",
+    "period": "some-uuid-here.10",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.60",
+    "period": "some-uuid-here.10",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.61",
+    "period": "some-uuid-here.11",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.62",
+    "period": "some-uuid-here.11",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.63",
+    "period": "some-uuid-here.11",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.64",
+    "period": "some-uuid-here.11",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.65",
+    "period": "some-uuid-here.11",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.66",
+    "period": "some-uuid-here.11",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.67",
+    "period": "some-uuid-here.12",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.68",
+    "period": "some-uuid-here.12",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.69",
+    "period": "some-uuid-here.12",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.70",
+    "period": "some-uuid-here.12",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.71",
+    "period": "some-uuid-here.12",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.72",
+    "period": "some-uuid-here.12",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  },
+  {
+    "id": "some-uuid-here.73",
+    "period": "some-uuid-here.13",
+    "date": "2015-12-03",
+    "description": "Foreign Contributions",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Foreign Contributions"
+  },
+  {
+    "id": "some-uuid-here.74",
+    "period": "some-uuid-here.13",
+    "date": "2015-12-03",
+    "description": "Local Contributions",
+    "credit": 12000,
+    "debit": 0,
+    "category": "Local Contributions"
+  },
+  {
+    "id": "some-uuid-here.75",
+    "period": "some-uuid-here.13",
+    "date": "2015-12-03",
+    "description": "Transfers In",
+    "credit": 8000,
+    "debit": 0,
+    "category": "Transfers In"
+  },
+  {
+    "id": "some-uuid-here.76",
+    "period": "some-uuid-here.13",
+    "date": "2015-12-03",
+    "description": "Gross Salary",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Gross Salary"
+  },
+  {
+    "id": "some-uuid-here.77",
+    "period": "some-uuid-here.13",
+    "date": "2015-12-03",
+    "description": "Salary Advance",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Salary Advance"
+  },
+  {
+    "id": "some-uuid-here.78",
+    "period": "some-uuid-here.13",
+    "date": "2015-12-03",
+    "description": "Reimbursement A",
+    "credit": 0,
+    "debit": 8000,
+    "category": "Reimbursements"
+  }
 ]
